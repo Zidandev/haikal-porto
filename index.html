@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pentingnya Membuang Sampah pada Tempatnya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 6;
+    background: #f4f4f4;
+}
+
+header {
+    background: linear-gradient(135deg, #90Afc5, #68829e);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 4rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    position: relative;
+}
+/* Animasi dan Transisi Teks Keren */
+@keyframes textSlideIn {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes textGlow {
+    0% {
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 1);
+    }
+    100% {
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    }
+}
+
+.cool-transition {
+    animation: textSlideIn 5s ease-out;
+    opacity: 1;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.cool-transition:hover {
+    color: #3498db; /* Ganti warna teks saat hover */
+    transform: scale(1.1); /* Membesarkan teks saat hover */
+    animation: textGlow 5s infinite alternate; /* Efek glow saat hover */
+}
+
+.fade-in {
+    animation: fadeIn 5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* Gaya Lain */
+ul {
+    padding-left: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #555;
+}
+
+footer {
+    background: linear-gradient(135deg, #90Afc5, #68829e);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 10000;
+    width: 100%;
+}
+
+    </style>
+    <header>
+        <h1 class="transition-text">Pentingnya Membuang Sampah pada Tempatnya</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#tips">Tips</a></li>
+                <li><a href="#contact">Kontak Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2 class="cool-transition">Selamat Datang!</h2>
+            <p class="cool-transition">Website ini bertujuan untuk mengedukasi masyarakat tentang pentingnya membuang sampah pada tempatnya. Dengan membuang sampah pada tempat yang benar, kita dapat menjaga kebersihan lingkungan dan melindungi kesehatan kita.</p>
+            <img src="http://1.bp.blogspot.com/-55_OVHX7lZg/VCd3kAhNPcI/AAAAAAAAAEE/cZTSeUrpR_w/s1600/dscn14152.jpg" alt="Lingkungan Bersih " width="500" class="fade-in">
+        </section>
+
+        <section id="about">
+            <h2 class="cool transition">Tujuan website</h2>
+            <p class="cool transition">Saya mengajak kalian semua untuk peduli terhadap lingkungan dan ingin meningkatkan kesadaran masyarakat mengenai pentingnya pengelolaan sampah. Saya percaya bahwa setiap tindakan kecil dapat membuat perbedaan besar.</p>
+        </section>
+
+        <section id="tips">
+            <h2 class="cool-transition">Tips Membuang Sampah dengan Benar</h2>
+            <ul>
+                <li class="cool-transition">Gunakan tempat sampah yang sesuai untuk jenis sampah (organik, anorganik, berbahaya).</li>
+                <li class="cool-transition">Pisahkan sampah sebelum dibuang.</li>
+                <li class="cool-transition">Jangan membuang sampah sembarangan, terutama di tempat umum.</li>
+                <li class="cool-transitiongit">Ikut serta dalam program daur ulang di komunitas Anda.</li>
+                <li class="cool-transition">Jaga kebersihan lingkungan sekitar dengan tidak membuang sampah sembarangan.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2 class="cool-transition">Kontak Kami</h2>
+            <form action="mailto:haikalrasyaputra@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Pesan:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <input type="submit" value="Kirim">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pentingnya Membuang Sampah pada Tempatnya.Haikal.</p>
+    </footer>
+</body>
+</html>
